@@ -1,0 +1,314 @@
+body {
+    /* display: flex; */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4181ee;
+    /* 4181ee */
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+nav {
+    background-color: #555;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+main {
+    display: flex;
+    padding: 5px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.content {
+    flex: 2;
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+.sidebar {
+    position: absolute; /* 设置图片为绝对定位 */
+    top: 30px; /* 顶部对齐 */
+    right: 250px; /* 右侧对齐 */
+    /* transform: translate(50%, -50%); 使图片定位到右上角 */
+}
+.sidebar img {
+    width: 150px; /* 设置图片宽度 */
+    border: 3px solid #c3d6ff; /* You can adjust the width and color of the border as needed */
+
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.section-title {
+    font-size: x-large;
+    border-bottom: 2px solid #ddd;
+    padding-top:4px;
+    margin-bottom: 4px;
+}
+.project {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+
+    background-color: #e0ffff;
+    padding: 5px 20px; /* 5px top/bottom padding, 20px left/right padding */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Adjust this value to set the distance from the "CLASS PROJECTS" title */
+    margin-left: 30px; /* Adjust this value to set the distance from the "CLASS PROJECTS" title */
+    margin-right: 30px; /* Adjust this value to set the distance from the "CLASS PROJECTS" title */
+
+    height: auto; /* 或者不设置高度，让div根据内容自动调整高度 */
+    overflow: auto; /* Automatically expand if content overflows */
+}
+
+.project_contest{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+
+    background-color: hsl(63, 100%, 88%);
+    padding: 5px 20px; /* 5px top/bottom padding, 20px left/right padding */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Adjust this value to set the distance from the "CLASS PROJECTS" title */
+    margin-left: 30px; /* Adjust this value to set the distance from the "CLASS PROJECTS" title */
+    margin-right: 30px; /* Adjust this value to set the distance from the "CLASS PROJECTS" title */
+
+    height: auto; /* 或者不设置高度，让div根据内容自动调整高度 */
+    overflow: auto; /* Automatically expand if content overflows */
+}
+.funThings {
+    background-color: #ffe174;
+    padding: 5px 20px; /* 5px top/bottom padding, 20px left/right padding */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Adjust this value to set the distance from the "CLASS PROJECTS" title */
+    margin-left: 30px; /* Adjust this value to set the distance from the "CLASS PROJECTS" title */
+    margin-right: 30px; /* Adjust this value to set the distance from the "CLASS PROJECTS" title */
+
+    height: auto; /* 或者不设置高度，让div根据内容自动调整高度 */
+    overflow: auto; /* Automatically expand if content overflows */
+}
+
+.img-box {
+    float: right;
+    margin: 8px;
+    margin-top: 30px;
+}
+
+.img-box-left-F {
+    float: left;
+    /* display: inline-block; */
+    border: 10px solid #52f3ff; /* 画框 */
+    border-radius: 20px; /* 棱角 */
+    margin: 8px;
+}
+
+.course {
+    /* font-size: 1.5em; */
+    /* font-weight: bold; */
+    color: #007BFF;
+    font-style: italic;
+    /* text-decoration: underline; */
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25%; /* Adjust the gap as needed for spacing between the paragraphs */
+    margin-bottom: -25px; /* Adjust the margin-bottom as needed */
+
+}
+h3 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0; /* Remove default margins */
+}
+h3 small em {
+    font-style: italic; /* 设置为斜体 */
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+    font-size: 20px; /* 自动设置为稍小的字体大小 */
+    }
+
+.hp_container {
+    width: 100%;
+    background-color: hsl(63, 100%, 88%);
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.left-div {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    height: auto; /* 设置容器的高度 */
+    width: 35%; /* 设置容器的宽度 */
+    flex-direction: column; /* 确保子元素在垂直方向上排列 */
+
+    background-color: #feffea;
+
+}
+
+.left-div img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 60%; /* 确保图片不超过父容器的宽度的80% */
+    max-height: 100%; /* 确保图片不超过父容器的高度 */
+    border-radius: 50%; /* 可选：使图片呈圆形 */
+    transform: scale(0.7); /* 将图像缩放到原来的70% */
+
+}
+.left-div-box {
+    width: 50%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Comic Sans MS', cursive; /* 设置标题字体 */
+    font-size: 18px; /* 设置段落字体大小为16像素，您可以根据需要调整这个数字 */
+
+}
+
+
+.right-div {
+    flex: 0 0 65%; /* 65% width, no grow, no shrink */
+    background-color: #feffea;
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    font-size: 20px; /* 设置段落字体大小为16像素，您可以根据需要调整这个数字 */
+    font-family: 'Times New Roman', Times, serif; /* 将字体设置为Times New Roman，如果用户设备不支持，后面的备选字体是Times和系统默认的衬线字体 */
+    
+}
+.right-div h2 {
+    font-family: 'Comic Sans MS', cursive; /* 设置标题字体 */
+    background-color: #ffe6a1; /* 浅粉色背景 */
+    padding: 2px;
+    border-radius: 10%;
+    display: inline; /* Ensure it stays inline */
+
+}
+.progress-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.progress-label {
+    width: 50%; /* 调整名称宽度 */
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.progress-bar {
+    margin-right: 40px;
+    width: calc(100% - 20px); /* 计算进度条宽度，减去名称宽度 */
+    height: 12px;
+    border: 2px solid #ccc;
+    position: relative;
+    overflow: hidden;
+}
+.progress {
+    height: 100%;
+    background-color: #4CAF50;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contact-icons {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    gap: 30px;
+}
+.fun_div {
+    flex-direction: column; /* 垂直排列文字和图片 */
+
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fun_text {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px; /* 增加一点间距 */
+}
+
+
+.fun_img {
+    display: flex; /* 使用 flexbox 使图片水平排列 */
+    justify-content: center; /* 水平居中图片 */
+    gap: 10px; /* 控制图片之间的间距 */
+}
+
+.fun_img img {
+    height: 240px;
+    width: auto;
+    border-radius: 10%;
+}
+
+
+
+.CV-subtitle-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.CV-subtitle-left {
+    text-align: left;
+    font-weight: bold; /* 加粗字体 */
+    font-family: "Times New Roman", Times, serif; /* 使用 Times New Roman 字体 */
+    font-size: large;
+
+}
+
+.CV-subtitle-right {
+    text-align: right;
+    font-weight: bold; /* 加粗字体 */
+    font-family: "Times New Roman", Times, serif; /* 使用 Times New Roman 字体 */
+    font-size: large;
+
+}
+.CV-subcontext {
+    display: flex;
+    /* justify-content: space-between; */
+    font-family: "Times New Roman", Times, serif; /* 使用 Times New Roman 字体 */
+}
+
+.CV-subcontext-left {
+    flex: 1; /* 左侧部分 */
+    text-align: left;
+}
+
+.CV-subcontext-right {
+    flex: 0; /* 右侧部分 */
+    text-align: right;
+    white-space: nowrap; /* 防止右侧文字换行 */
+}

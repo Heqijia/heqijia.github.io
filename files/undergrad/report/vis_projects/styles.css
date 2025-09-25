@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4B0082 0%, #000000 100%);
+  padding: 5px;
+}
+
+.font_title{
+  font-family: 'Playpen Sans';
+  font-size: 20px;
+  color:  #df4d18;
+  text-align: center;
+}
+
+.font_text{
+  font-family:'Playpen Sans';
+  font-size: 15px;
+  color: #df4d18;
+  text-align: center;
+}
+
+.father_container {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  /* background-color: #e3f8e1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+
+  margin: 0 auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #000 */
+}
+
+.word_cloud_container {
+  background: linear-gradient(to right, #2F0041 0%, #170020 100%);
+  
+  width: 500px;
+  height: 400px;
+  display: flex;
+}
+.model_make_container {
+  background: linear-gradient(to right, #170020 0%, #000000 100%);
+
+  width: 600px;
+  height: 400px;
+  display: flex;
+}
+.body_make_container {
+  background: linear-gradient(to right, #4B0082 0%, #2F0041 100%);
+  width: 500px;
+  height: 400px;
+  display: flex;
+}
+.parallel_container{
+  background: linear-gradient(to right, #4B0082 0%, #2F0041 100%);
+  width: 810px;
+  height: 450px;
+  display: flex;
+}
+.scatter_container{
+  background: linear-gradient(to right, #2F0041 0%, #170020 100%);
+  width: 500px;
+  height: 450px;
+  display: flex;
+}
+
+ 
+#regression_input_container {
+  background: linear-gradient(to right, #170020 0%, #000000 100%);
+  height: 430px;
+  width: 270px;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  margin: 0px 0; /* Updated margin to add some space above and below */
+}
+
+/* Style the input fields and button */
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+button {
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.plot_container_big {
+  background-color: #ffffff;
+  width: 850px;
+  margin: 10px 0; /* Updated margin to add some space above and below */
+  padding: 15px;
+  border-radius: 18px;
+  /* Adjusted the following styles for left alignment */
+  margin-left: 0;
+  margin-right: auto;
+  float: none;
+}
+
+
+/* select, button {
+  width:100px;
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 6px;
+} */
+
+/* button {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+select {
+  background-color: #f10000;
+  color: #ffffff;
+  cursor: pointer;
+} */
+.refresh {
+  background-image: url('https://cdn.icon-icons.com/icons2/2090/PNG/512/refresh_icon_128388.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #19f800;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+button:hover {
+  background-color: #2980b9;
+}
+
+
+
+

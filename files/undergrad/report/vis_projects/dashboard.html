@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset=='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        dashboard_cse332 Car Data
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans" rel="stylesheet">
+</head>
+
+
+
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+
+<script src="reload_svg.js"></script> 
+<script src="regression_function.js"></script>
+
+
+
+
+
+
+<body>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script>
+        window.make='ford';
+        window.parallel_value_df=0;
+        window.parallel_value_2=0;
+        window.scatter_model='Fusion';
+        window.predict_coor=[0,-10000];
+        // window.="rgb(0, 255, 0)";
+
+    </script>
+
+
+    <h1 class="font_title">
+        US. Used Car Transaction Data Visualization
+    </h1>
+    <div class="father_container">
+        <div class="body_make_container", id="body_make_id">
+            <script src="body_make.js"></script>
+        </div>
+
+        <div class="word_cloud_container" id="word_cloud_id">
+            <script src="word_cloud.js"></script>
+        </div>
+
+        <div class="model_make_container" id="model_make_id">
+            <script src="model_make.js"></script>
+        </div>
+    </div>
+    <div class="father_container">
+        <div class="parallel_container", id="parallel_id">
+            <script src="parallel.js"></script>
+        </div>
+        <div class="scatter_container", id="scatter_id">
+            <script src="scatter.js"></script>
+        </div>
+        <div id="regression_input_container">
+            <h5 class="font_title">Estimating the selling price</h5>
+            <label for="input1" style="color: white;">Using time:</label>
+            <input type="number" id="input1" placeholder="0~20">
+            <label for="input2" style="color: white;">Odometer:</label>
+            <input type="number" id="input2" placeholder="0~1000000">
+            <label for="input3" style="color: white;">Car Model:</label>
+            <input type="text" id="input3" placeholder="e.g. Fusion">
+            
+            <button onclick="loadModelAndPredict()">Submit</button>
+            <p id="result" style="font-family: 'Playpen Sans';">Estimating Price: </p>
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>

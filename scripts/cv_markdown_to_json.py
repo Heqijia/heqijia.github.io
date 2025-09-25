@@ -40,7 +40,10 @@ def parse_markdown_cv(md_file):
         section_match = re.match(r'^([A-Za-z\s]+)$', line.strip())
         if section_match and len(line.strip()) > 0:
             if current_section:
-                sections[current_section] = '\n'.join(section_content).strip()
+                # join and fix markdown soft line breaks
+                text_block = '\n'.join(section_content).strip()
+                text_block = re.sub(r'  \n', '\n', text_block)  # 转换 "两个空格+换行" → 硬换行
+                sections[current_section] = text_block
                 section_content = []
             current_section = section_match.group(1).strip()
         elif current_section:
@@ -48,9 +51,12 @@ def parse_markdown_cv(md_file):
     
     # Add the last section
     if current_section and section_content:
-        sections[current_section] = '\n'.join(section_content).strip()
+        text_block = '\n'.join(section_content).strip()
+        text_block = re.sub(r'  \n', '\n', text_block)
+        sections[current_section] = text_block
     
     return sections
+
 
 def parse_config(config_file):
     """Parse the Jekyll _config.yml file for additional information."""

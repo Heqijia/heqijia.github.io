@@ -9,21 +9,40 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D. in Electrical and Computer Engineering (Expected 2030)
+[Here](../files/CV_QJH.pdf) is a pdf version of my CV. Also, [this](../files/undergrad/homepage.html) is my first personal website made in 2024. (Undergraduate version)
 
-  The Ohio State University, Columbus, OH
-* B.S.in Data Science and Big Data Technology, 2025
+## Education
 
-  Southern University of Science and Technology (SUSTech), Shenzhen, China
+- **Ph.D. in Electrical and Computer Engineering (Expected 2030)**
+  - The Ohio State University, Columbus, OH
+  
+- **B.S. in Data Science and Big Data Technology**
+  - Southern University of Science and Technology (SUSTech), Shenzhen, China
+  - Sep 2021 – Jun 2025
 
-Work experience
-======
-* Undergraduate Research Assistant
+- **Exchange Student**
+  - Stony Brook University, NY
+  - Aug 2023 – Dec 2023
 
-  Southern University of Science and Technology, Shenzhen, China, September 2024 – May 2025
 
-* Computer Vision and Cloud Engineer Intern
 
-  Tapall.ai, Shenzhen, China, June 2024 – August 2024
+
+## Work Experience
+
+- **Graduate Research Assistant**
+  - The Ohio State University, OH, United States
+  - Sep 2025 – Present
+  - *Advised by Prof. [Yingbin Liang](https://sites.google.com/view/yingbinliang/home)*
+
+- **Undergraduate Research Assistant**
+  - Southern University of Science and Technology, Shenzhen, China
+  - Sep 2024 – May 2025
+  - *Advised by Prof. [Fang Kong](https://fangkongx.github.io/index.html)*
+
+- **Computer Vision and Cloud Engineer Intern**
+  - Tapall.ai, Shenzhen, China
+  - Jun 2024 – Aug 2024
+  - *Advised by Dr. [Mingqi Gao](https://mingqigao.com/)*
+
+
+

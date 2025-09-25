@@ -1,22 +1,23 @@
 /* CV Layout Specific Styles */
 .cv-header-nav {
-  padding: 1rem 0;
+  padding: 0.5rem 0;              /* 原 1rem → 改 0.5rem */
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;            /* 原 2rem → 改 1rem */
   border-bottom: 1px solid #f2f2f2;
 }
 
 .cv-header-nav .home-button {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 1rem;
+  gap: 0.25rem;                   /* 原 0.5rem → 改 0.25rem */
+  padding: 0.25rem 0.5rem;        /* 原 0.5rem 1rem → 改 0.25rem 0.5rem */
   background-color: #2a7ae2;
-  color: white;
+  color: rgb(247, 29, 29);
   text-decoration: none;
   border-radius: 4px;
   font-weight: 500;
   transition: background-color 0.2s;
+  font-size: 0.9rem;              /* 字体稍微缩小（可选） */
 }
 
 .cv-header-nav .home-button:hover {
@@ -30,12 +31,13 @@
 
 /* Download links styling */
 .cv-download-links {
-  margin-top: 2rem;
+  margin-top: 1rem;               /* 原 2rem → 改 1rem */
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;                /* 原 1rem → 改 0.5rem */
   border-top: 1px solid #f2f2f2;
 }
 
 .cv-download-links a {
-  margin: 0 0.5rem;
+  margin: 0 0.25rem;              /* 原 0.5rem → 改 0.25rem */
+  font-size: 0.9rem;              /* 链接字体稍微缩小（可选） */
 }

@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Qijia He" # Name of the author, e.g. "John Doe"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : # "Short biography for the left-hand sidebar"
   location         : "Columbus, OH"
   employer         : "The Ohio State University"
   uri              : # URL
