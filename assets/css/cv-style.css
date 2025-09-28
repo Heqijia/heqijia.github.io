@@ -111,3 +111,8 @@
     line-height: 1.2; /* 打印时更紧凑 */
   }
 }
+
+/*设置字体为times new roman*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
