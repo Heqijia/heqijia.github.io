@@ -11,5 +11,5 @@ I am Qijia He, a first-year Ph.D. student in the Department of Electrical and Co
 
 ## Publication
 
-- [*Learning Across the Gap: Hybrid Multi-armed Bandits with Heterogeneous Offline and Online Data*](https://zhiyongwangwzy.github.io/) (NeurIPS 2025)
+- [*Learning Across the Gap: Hybrid Multi-armed Bandits with Heterogeneous Offline and Online Data*](https://openreview.net/pdf?id=kThBNZTMaw) (NeurIPS 2025)
   - **Qijia He**, Minghan Wang, Xutong Liu, Zhiyong Wang, and Fang Kong.
