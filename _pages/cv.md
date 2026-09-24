@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Here](../files/CV_QJH.pdf) is a pdf version of my CV.
+<!-- [Here](../files/CV_QJH.pdf) is a pdf version of my CV. -->
 ## Education
 
 - **Ph.D. in Electrical and Computer Engineering (Expected 2030)**
