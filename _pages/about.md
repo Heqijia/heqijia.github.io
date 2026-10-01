@@ -11,9 +11,12 @@ I am Qijia He, a first-year Ph.D. student in the Department of Electrical and Co
 
 ## Publication
 
-- Provable Test-Time Scaling for Beam Search in LLM Reasoning (NeurIPS 2026)
-  - **Qijia He\***, Yu Huang\*, Yuan Cheng\*, Yuxin Chen, Yingbin Liang.
-- [PACT: Privileged Trace Co-Training for Multi-Turn Tool-Use Agents](https://arxiv.org/pdf/2606.16215) (Preprint)
+- Asynchronous LLM Post-Training: Group-Mass Capping and Convergence Analysis (Submitted to ICLR 2027)
+  - **Qijia He**, Ruinan Jin, Jun Luo, Shaofeng Zou, Yingbin Liang.
+- [PACT: Privileged Trace Co-Training for Multi-Turn Tool-Use Agents](https://arxiv.org/pdf/2606.16215) (Submitted to ICLR 2027)
   - Zhenbang Du\*, Jun Luo\*, Zhiwei Zheng,  Xiangchi Yuan, Kejing Xia, Dachuan Shi, Qirui Jin, **Qijia He**, Shaofeng Zou, Yingbin Liang, Wenke Lee.
-- [*Learning Across the Gap: Hybrid Multi-armed Bandits with Heterogeneous Offline and Online Data*](https://openreview.net/pdf?id=kThBNZTMaw) (NeurIPS 2025)
-  - **Qijia He**, Minghan Wang, Xutong Liu, Zhiyong Wang, and Fang Kong.
+
+- [Provable Test-Time Scaling for Beam Search in LLM Reasoning](https://arxiv.org/pdf/2609.38672) (NeurIPS 2026)
+  - **Qijia He\***, Yu Huang\*, Yuan Cheng\*, Yuxin Chen, Yingbin Liang.
+- [Learning Across the Gap: Hybrid Multi-armed Bandits with Heterogeneous Offline and Online Data](https://openreview.net/pdf?id=kThBNZTMaw) (NeurIPS 2025)
+  - **Qijia He**, Minghan Wang, Xutong Liu, Zhiyong Wang, Fang Kong.
