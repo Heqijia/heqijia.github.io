@@ -11,7 +11,7 @@ I am Qijia He, a first-year Ph.D. student in the Department of Electrical and Co
 
 ## Publication
 
-- Asynchronous LLM Post-Training: Group-Mass Capping and Convergence Analysis (Preprint)
+- [Asynchronous LLM Post-Training: Group-Mass Capping and Convergence Analysis](https://arxiv.org/pdf/2610.01896) (Preprint)
   - **Qijia He**, Ruinan Jin, Jun Luo, Shaofeng Zou, Yingbin Liang.
 - [PACT: Privileged Trace Co-Training for Multi-Turn Tool-Use Agents](https://arxiv.org/pdf/2606.16215) (Preprint)
   - Zhenbang Du\*, Jun Luo\*, Zhiwei Zheng,  Xiangchi Yuan, Kejing Xia, Dachuan Shi, Qirui Jin, **Qijia He**, Shaofeng Zou, Yingbin Liang, Wenke Lee.
